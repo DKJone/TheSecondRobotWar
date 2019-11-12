@@ -8,3 +8,5 @@
 )](http://mit-license.org)
 
  项目基于 gameKit、SpriteKit
+
+![startScene](./ScreenShots/startScene.png)

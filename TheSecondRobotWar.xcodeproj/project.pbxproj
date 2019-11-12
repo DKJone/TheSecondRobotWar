@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11829B6C2378FF980086DEAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11829B6B2378FF980086DEAA /* AppDelegate.swift */; };
+		11829B722378FF990086DEAA /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11829B712378FF990086DEAA /* GameScene.swift */; };
+		11829B742378FF990086DEAA /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11829B732378FF990086DEAA /* GameViewController.swift */; };
+		11829B772378FF990086DEAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11829B752378FF990086DEAA /* Main.storyboard */; };
+		11829B792378FF9C0086DEAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11829B782378FF9C0086DEAA /* Assets.xcassets */; };
+		11829B7C2378FF9C0086DEAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11829B7A2378FF9C0086DEAA /* LaunchScreen.storyboard */; };
+		11829B84237923B80086DEAA /* MyScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 11829B83237923B80086DEAA /* MyScene.sks */; };
+		11829B8E237962000086DEAA /* bgm_home.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 11829B8D237962000086DEAA /* bgm_home.mp3 */; };
+		11CDB356237A853A000A0FD1 /* SKExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CDB355237A853A000A0FD1 /* SKExtension.swift */; };
+		11CDB358237AA725000A0FD1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 11CDB357237AA725000A0FD1 /* README.md */; };
+		40D2A21AB5EF238DAED010F2 /* Pods_TheSecondRobotWar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7D4A59DD891D2EBA725CE4F /* Pods_TheSecondRobotWar.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11829B682378FF980086DEAA /* 第二次超级机器人大战.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "第二次超级机器人大战.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11829B6B2378FF980086DEAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		11829B712378FF990086DEAA /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		11829B732378FF990086DEAA /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		11829B762378FF990086DEAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11829B782378FF9C0086DEAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11829B7B2378FF9C0086DEAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11829B7D2378FF9C0086DEAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11829B83237923B80086DEAA /* MyScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyScene.sks; sourceTree = "<group>"; };
+		11829B8D237962000086DEAA /* bgm_home.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bgm_home.mp3; sourceTree = "<group>"; };
+		11CDB355237A853A000A0FD1 /* SKExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKExtension.swift; sourceTree = "<group>"; };
+		11CDB357237AA725000A0FD1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E6CEA81488BB039CFED9086B /* Pods-TheSecondRobotWar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheSecondRobotWar.release.xcconfig"; path = "Target Support Files/Pods-TheSecondRobotWar/Pods-TheSecondRobotWar.release.xcconfig"; sourceTree = "<group>"; };
+		F7D4A59DD891D2EBA725CE4F /* Pods_TheSecondRobotWar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheSecondRobotWar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC48CC16B57A2ED263533212 /* Pods-TheSecondRobotWar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheSecondRobotWar.debug.xcconfig"; path = "Target Support Files/Pods-TheSecondRobotWar/Pods-TheSecondRobotWar.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11829B652378FF980086DEAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40D2A21AB5EF238DAED010F2 /* Pods_TheSecondRobotWar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11829B5F2378FF980086DEAA = {
+			isa = PBXGroup;
+			children = (
+				11CDB357237AA725000A0FD1 /* README.md */,
+				11829B6A2378FF980086DEAA /* TheSecondRobotWar */,
+				11829B692378FF980086DEAA /* Products */,
+				519B08515CB9D5C405688E21 /* Pods */,
+				21304B18AF23989868B805D6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		11829B692378FF980086DEAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11829B682378FF980086DEAA /* 第二次超级机器人大战.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11829B6A2378FF980086DEAA /* TheSecondRobotWar */ = {
+			isa = PBXGroup;
+			children = (
+				11CDB354237A8523000A0FD1 /* Extension */,
+				11829B852379434D0086DEAA /* BGMS */,
+				11829B6B2378FF980086DEAA /* AppDelegate.swift */,
+				11829B712378FF990086DEAA /* GameScene.swift */,
+				11829B732378FF990086DEAA /* GameViewController.swift */,
+				11829B83237923B80086DEAA /* MyScene.sks */,
+				11829B752378FF990086DEAA /* Main.storyboard */,
+				11829B782378FF9C0086DEAA /* Assets.xcassets */,
+				11829B7A2378FF9C0086DEAA /* LaunchScreen.storyboard */,
+				11829B7D2378FF9C0086DEAA /* Info.plist */,
+			);
+			path = TheSecondRobotWar;
+			sourceTree = "<group>";
+		};
+		11829B852379434D0086DEAA /* BGMS */ = {
+			isa = PBXGroup;
+			children = (
+				11829B8D237962000086DEAA /* bgm_home.mp3 */,
+			);
+			path = BGMS;
+			sourceTree = "<group>";
+		};
+		11CDB354237A8523000A0FD1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				11CDB355237A853A000A0FD1 /* SKExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		21304B18AF23989868B805D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7D4A59DD891D2EBA725CE4F /* Pods_TheSecondRobotWar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		519B08515CB9D5C405688E21 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC48CC16B57A2ED263533212 /* Pods-TheSecondRobotWar.debug.xcconfig */,
+				E6CEA81488BB039CFED9086B /* Pods-TheSecondRobotWar.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11829B672378FF980086DEAA /* TheSecondRobotWar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11829B802378FF9C0086DEAA /* Build configuration list for PBXNativeTarget "TheSecondRobotWar" */;
+			buildPhases = (
+				266AA9930155ACC028033E66 /* [CP] Check Pods Manifest.lock */,
+				11829B642378FF980086DEAA /* Sources */,
+				11829B652378FF980086DEAA /* Frameworks */,
+				11829B662378FF980086DEAA /* Resources */,
+				4555BCE0822687CC6C7DA9D6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheSecondRobotWar;
+			productName = TheSecondRobotWar;
+			productReference = 11829B682378FF980086DEAA /* 第二次超级机器人大战.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11829B602378FF980086DEAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = DKJone;
+				TargetAttributes = {
+					11829B672378FF980086DEAA = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = 11829B632378FF980086DEAA /* Build configuration list for PBXProject "TheSecondRobotWar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11829B5F2378FF980086DEAA;
+			productRefGroup = 11829B692378FF980086DEAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11829B672378FF980086DEAA /* TheSecondRobotWar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11829B662378FF980086DEAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11CDB358237AA725000A0FD1 /* README.md in Resources */,
+				11829B772378FF990086DEAA /* Main.storyboard in Resources */,
+				11829B792378FF9C0086DEAA /* Assets.xcassets in Resources */,
+				11829B84237923B80086DEAA /* MyScene.sks in Resources */,
+				11829B7C2378FF9C0086DEAA /* LaunchScreen.storyboard in Resources */,
+				11829B8E237962000086DEAA /* bgm_home.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		266AA9930155ACC028033E66 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TheSecondRobotWar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4555BCE0822687CC6C7DA9D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TheSecondRobotWar/Pods-TheSecondRobotWar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TheSecondRobotWar/Pods-TheSecondRobotWar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TheSecondRobotWar/Pods-TheSecondRobotWar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11829B642378FF980086DEAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11829B722378FF990086DEAA /* GameScene.swift in Sources */,
+				11829B742378FF990086DEAA /* GameViewController.swift in Sources */,
+				11829B6C2378FF980086DEAA /* AppDelegate.swift in Sources */,
+				11CDB356237A853A000A0FD1 /* SKExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		11829B752378FF990086DEAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11829B762378FF990086DEAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11829B7A2378FF9C0086DEAA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11829B7B2378FF9C0086DEAA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11829B7E2378FF9C0086DEAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11829B7F2378FF9C0086DEAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11829B812378FF9C0086DEAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC48CC16B57A2ED263533212 /* Pods-TheSecondRobotWar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NL54V6A3P5;
+				INFOPLIST_FILE = TheSecondRobotWar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dkjone.TheSecondRobotWar;
+				PRODUCT_NAME = "第二次超级机器人大战";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11829B822378FF9C0086DEAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6CEA81488BB039CFED9086B /* Pods-TheSecondRobotWar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NL54V6A3P5;
+				INFOPLIST_FILE = TheSecondRobotWar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dkjone.TheSecondRobotWar;
+				PRODUCT_NAME = "第二次超级机器人大战";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11829B632378FF980086DEAA /* Build configuration list for PBXProject "TheSecondRobotWar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11829B7E2378FF9C0086DEAA /* Debug */,
+				11829B7F2378FF9C0086DEAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11829B802378FF9C0086DEAA /* Build configuration list for PBXNativeTarget "TheSecondRobotWar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11829B812378FF9C0086DEAA /* Debug */,
+				11829B822378FF9C0086DEAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11829B602378FF980086DEAA /* Project object */;
+}
