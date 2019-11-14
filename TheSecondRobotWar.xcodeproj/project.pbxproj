@@ -7,20 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		110F5F4D237BC0AF000E532E /* DialogueModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110F5F4C237BC0AF000E532E /* DialogueModel.swift */; };
+		110F5F4F237BC150000E532E /* HandJson+SwiftJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110F5F4E237BC150000E532E /* HandJson+SwiftJson.swift */; };
+		110F5F52237BC1E0000E532E /* Session1Dialogue.json in Resources */ = {isa = PBXBuildFile; fileRef = 110F5F51237BC1E0000E532E /* Session1Dialogue.json */; };
+		110F5F55237BD1EE000E532E /* SessionNameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110F5F54237BD1EE000E532E /* SessionNameScene.swift */; };
+		110F5F57237BD36D000E532E /* SessionName.json in Resources */ = {isa = PBXBuildFile; fileRef = 110F5F56237BD36D000E532E /* SessionName.json */; };
+		114BE3A1237BE4B60009C760 /* MyTileSet1.sks in Resources */ = {isa = PBXBuildFile; fileRef = 114BE3A0237BE4B60009C760 /* MyTileSet1.sks */; };
+		114BE3A5237C01B20009C760 /* Session1Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114BE3A4237C01B20009C760 /* Session1Scene.swift */; };
+		114BE3A7237CFF2A0009C760 /* bgm_fight_01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 114BE3A6237CFF2A0009C760 /* bgm_fight_01.mp3 */; };
+		114BE3A9237CFF360009C760 /* bgm_session_title.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 114BE3A8237CFF360009C760 /* bgm_session_title.mp3 */; };
 		11829B6C2378FF980086DEAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11829B6B2378FF980086DEAA /* AppDelegate.swift */; };
 		11829B722378FF990086DEAA /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11829B712378FF990086DEAA /* GameScene.swift */; };
 		11829B742378FF990086DEAA /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11829B732378FF990086DEAA /* GameViewController.swift */; };
 		11829B772378FF990086DEAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11829B752378FF990086DEAA /* Main.storyboard */; };
 		11829B792378FF9C0086DEAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11829B782378FF9C0086DEAA /* Assets.xcassets */; };
 		11829B7C2378FF9C0086DEAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11829B7A2378FF9C0086DEAA /* LaunchScreen.storyboard */; };
-		11829B84237923B80086DEAA /* MyScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 11829B83237923B80086DEAA /* MyScene.sks */; };
 		11829B8E237962000086DEAA /* bgm_home.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 11829B8D237962000086DEAA /* bgm_home.mp3 */; };
 		11CDB356237A853A000A0FD1 /* SKExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CDB355237A853A000A0FD1 /* SKExtension.swift */; };
 		11CDB358237AA725000A0FD1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 11CDB357237AA725000A0FD1 /* README.md */; };
+		11CDB35A237AB5AC000A0FD1 /* Session1Scene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 11CDB359237AB5AC000A0FD1 /* Session1Scene.sks */; };
+		11CDB35C237AB95C000A0FD1 /* SwitchSessionScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CDB35B237AB95C000A0FD1 /* SwitchSessionScene.swift */; };
+		11CDB35F237B9544000A0FD1 /* bgm_switch_sesion_01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 11CDB35D237B9544000A0FD1 /* bgm_switch_sesion_01.mp3 */; };
+		11CDB360237B9544000A0FD1 /* bgm_point.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 11CDB35E237B9544000A0FD1 /* bgm_point.mp3 */; };
 		40D2A21AB5EF238DAED010F2 /* Pods_TheSecondRobotWar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7D4A59DD891D2EBA725CE4F /* Pods_TheSecondRobotWar.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		110F5F4C237BC0AF000E532E /* DialogueModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogueModel.swift; sourceTree = "<group>"; };
+		110F5F4E237BC150000E532E /* HandJson+SwiftJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HandJson+SwiftJson.swift"; sourceTree = "<group>"; };
+		110F5F51237BC1E0000E532E /* Session1Dialogue.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Session1Dialogue.json; sourceTree = "<group>"; };
+		110F5F54237BD1EE000E532E /* SessionNameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionNameScene.swift; sourceTree = "<group>"; };
+		110F5F56237BD36D000E532E /* SessionName.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SessionName.json; sourceTree = "<group>"; };
+		114BE3A0237BE4B60009C760 /* MyTileSet1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyTileSet1.sks; sourceTree = "<group>"; };
+		114BE3A4237C01B20009C760 /* Session1Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session1Scene.swift; sourceTree = "<group>"; };
+		114BE3A6237CFF2A0009C760 /* bgm_fight_01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bgm_fight_01.mp3; sourceTree = "<group>"; };
+		114BE3A8237CFF360009C760 /* bgm_session_title.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bgm_session_title.mp3; sourceTree = "<group>"; };
 		11829B682378FF980086DEAA /* 第二次超级机器人大战.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "第二次超级机器人大战.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11829B6B2378FF980086DEAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11829B712378FF990086DEAA /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -29,10 +50,13 @@
 		11829B782378FF9C0086DEAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11829B7B2378FF9C0086DEAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11829B7D2378FF9C0086DEAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		11829B83237923B80086DEAA /* MyScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyScene.sks; sourceTree = "<group>"; };
 		11829B8D237962000086DEAA /* bgm_home.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bgm_home.mp3; sourceTree = "<group>"; };
 		11CDB355237A853A000A0FD1 /* SKExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKExtension.swift; sourceTree = "<group>"; };
 		11CDB357237AA725000A0FD1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		11CDB359237AB5AC000A0FD1 /* Session1Scene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Session1Scene.sks; sourceTree = "<group>"; };
+		11CDB35B237AB95C000A0FD1 /* SwitchSessionScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchSessionScene.swift; sourceTree = "<group>"; };
+		11CDB35D237B9544000A0FD1 /* bgm_switch_sesion_01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bgm_switch_sesion_01.mp3; sourceTree = "<group>"; };
+		11CDB35E237B9544000A0FD1 /* bgm_point.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bgm_point.mp3; sourceTree = "<group>"; };
 		E6CEA81488BB039CFED9086B /* Pods-TheSecondRobotWar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheSecondRobotWar.release.xcconfig"; path = "Target Support Files/Pods-TheSecondRobotWar/Pods-TheSecondRobotWar.release.xcconfig"; sourceTree = "<group>"; };
 		F7D4A59DD891D2EBA725CE4F /* Pods_TheSecondRobotWar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheSecondRobotWar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC48CC16B57A2ED263533212 /* Pods-TheSecondRobotWar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheSecondRobotWar.debug.xcconfig"; path = "Target Support Files/Pods-TheSecondRobotWar/Pods-TheSecondRobotWar.debug.xcconfig"; sourceTree = "<group>"; };
@@ -50,6 +74,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		110F5F4B237BC05F000E532E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				110F5F4C237BC0AF000E532E /* DialogueModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		110F5F50237BC199000E532E /* JSONS */ = {
+			isa = PBXGroup;
+			children = (
+				110F5F51237BC1E0000E532E /* Session1Dialogue.json */,
+				110F5F56237BD36D000E532E /* SessionName.json */,
+			);
+			path = JSONS;
+			sourceTree = "<group>";
+		};
+		110F5F53237BD1BC000E532E /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				11829B712378FF990086DEAA /* GameScene.swift */,
+				11CDB35B237AB95C000A0FD1 /* SwitchSessionScene.swift */,
+				110F5F54237BD1EE000E532E /* SessionNameScene.swift */,
+				114BE3A4237C01B20009C760 /* Session1Scene.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
 		11829B5F2378FF980086DEAA = {
 			isa = PBXGroup;
 			children = (
@@ -72,16 +124,19 @@
 		11829B6A2378FF980086DEAA /* TheSecondRobotWar */ = {
 			isa = PBXGroup;
 			children = (
+				110F5F53237BD1BC000E532E /* Scenes */,
+				110F5F50237BC199000E532E /* JSONS */,
+				110F5F4B237BC05F000E532E /* Model */,
 				11CDB354237A8523000A0FD1 /* Extension */,
 				11829B852379434D0086DEAA /* BGMS */,
 				11829B6B2378FF980086DEAA /* AppDelegate.swift */,
-				11829B712378FF990086DEAA /* GameScene.swift */,
 				11829B732378FF990086DEAA /* GameViewController.swift */,
-				11829B83237923B80086DEAA /* MyScene.sks */,
+				114BE3A0237BE4B60009C760 /* MyTileSet1.sks */,
 				11829B752378FF990086DEAA /* Main.storyboard */,
 				11829B782378FF9C0086DEAA /* Assets.xcassets */,
 				11829B7A2378FF9C0086DEAA /* LaunchScreen.storyboard */,
 				11829B7D2378FF9C0086DEAA /* Info.plist */,
+				11CDB359237AB5AC000A0FD1 /* Session1Scene.sks */,
 			);
 			path = TheSecondRobotWar;
 			sourceTree = "<group>";
@@ -89,6 +144,10 @@
 		11829B852379434D0086DEAA /* BGMS */ = {
 			isa = PBXGroup;
 			children = (
+				114BE3A8237CFF360009C760 /* bgm_session_title.mp3 */,
+				114BE3A6237CFF2A0009C760 /* bgm_fight_01.mp3 */,
+				11CDB35E237B9544000A0FD1 /* bgm_point.mp3 */,
+				11CDB35D237B9544000A0FD1 /* bgm_switch_sesion_01.mp3 */,
 				11829B8D237962000086DEAA /* bgm_home.mp3 */,
 			);
 			path = BGMS;
@@ -97,6 +156,7 @@
 		11CDB354237A8523000A0FD1 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				110F5F4E237BC150000E532E /* HandJson+SwiftJson.swift */,
 				11CDB355237A853A000A0FD1 /* SKExtension.swift */,
 			);
 			path = Extension;
@@ -180,11 +240,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				11CDB358237AA725000A0FD1 /* README.md in Resources */,
+				114BE3A7237CFF2A0009C760 /* bgm_fight_01.mp3 in Resources */,
+				114BE3A1237BE4B60009C760 /* MyTileSet1.sks in Resources */,
+				114BE3A9237CFF360009C760 /* bgm_session_title.mp3 in Resources */,
 				11829B772378FF990086DEAA /* Main.storyboard in Resources */,
+				11CDB360237B9544000A0FD1 /* bgm_point.mp3 in Resources */,
 				11829B792378FF9C0086DEAA /* Assets.xcassets in Resources */,
-				11829B84237923B80086DEAA /* MyScene.sks in Resources */,
 				11829B7C2378FF9C0086DEAA /* LaunchScreen.storyboard in Resources */,
+				11CDB35F237B9544000A0FD1 /* bgm_switch_sesion_01.mp3 in Resources */,
 				11829B8E237962000086DEAA /* bgm_home.mp3 in Resources */,
+				11CDB35A237AB5AC000A0FD1 /* Session1Scene.sks in Resources */,
+				110F5F52237BC1E0000E532E /* Session1Dialogue.json in Resources */,
+				110F5F57237BD36D000E532E /* SessionName.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,7 +307,12 @@
 				11829B722378FF990086DEAA /* GameScene.swift in Sources */,
 				11829B742378FF990086DEAA /* GameViewController.swift in Sources */,
 				11829B6C2378FF980086DEAA /* AppDelegate.swift in Sources */,
+				110F5F4D237BC0AF000E532E /* DialogueModel.swift in Sources */,
+				110F5F55237BD1EE000E532E /* SessionNameScene.swift in Sources */,
 				11CDB356237A853A000A0FD1 /* SKExtension.swift in Sources */,
+				11CDB35C237AB95C000A0FD1 /* SwitchSessionScene.swift in Sources */,
+				114BE3A5237C01B20009C760 /* Session1Scene.swift in Sources */,
+				110F5F4F237BC150000E532E /* HandJson+SwiftJson.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

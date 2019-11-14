@@ -1,4 +1,6 @@
 PODS:
+  - FLEX (3.0.0)
+  - HandyJSON (5.0.1)
   - SwifterSwift (5.1.0):
     - SwifterSwift/AppKit (= 5.1.0)
     - SwifterSwift/CoreGraphics (= 5.1.0)
@@ -20,17 +22,27 @@ PODS:
   - SwifterSwift/SpriteKit (5.1.0)
   - SwifterSwift/SwiftStdlib (5.1.0)
   - SwifterSwift/UIKit (5.1.0)
+  - SwiftyJSON (5.0.0)
 
 DEPENDENCIES:
+  - FLEX
+  - HandyJSON
   - SwifterSwift
+  - SwiftyJSON
 
 SPEC REPOS:
   trunk:
+    - FLEX
+    - HandyJSON
     - SwifterSwift
+    - SwiftyJSON
 
 SPEC CHECKSUMS:
+  FLEX: d66c759bce0f6ebbbf472c742380874d846f2883
+  HandyJSON: d45b8415c501e3affc59ca9762c1197ff0feb646
   SwifterSwift: a9e8e144832638c2850b43da5feaf9598c6ad65b
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
 
-PODFILE CHECKSUM: 1336fa87abd7c8777414fb3a0ece49b8529b372b
+PODFILE CHECKSUM: 990c03bdff55bf3f4b3941da30050bb11dec1a87
 
 COCOAPODS: 1.8.4

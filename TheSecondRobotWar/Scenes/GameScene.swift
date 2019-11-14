@@ -95,7 +95,9 @@ class GameScene: SKScene {
     let continueMenu = SKSpriteNode(imageNamed: "pic_home_menu2")
     let loadMenu = SKSpriteNode(imageNamed: "pic_home_menu3")
     let menuPoint = SKSpriteNode(imageNamed: "icon_menuPoint")
-    private lazy var mennuNode: SKSpriteNode = {
+
+    /// 菜单区域
+    private lazy var menuNode: SKSpriteNode = {
         let menu = SKSpriteNode()
         menu.addChilds(childs: [self.startMenu, self.continueMenu, self.loadMenu, self.menuPoint])
         menu.size = CGSize(width: self.startMenu.size.width, height: self.startMenu.size.height * 3)
@@ -113,10 +115,21 @@ class GameScene: SKScene {
         backgroundColor = .black
         scaleMode = .aspectFit
         addChild(self.titleNode)
-        addChilds(childs: [rectNode, mennuNode])
+        addChilds(childs: [rectNode, menuNode])
     }
 
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        self.view?.presentScene(GameScene(size: self.size))
+        guard let touchPoint = touches.first?.location(in: menuNode) else{return}
+        if startMenu.frame.contains(touchPoint){
+            let switchScenne = SwitchSessionScene(toSession: 1,size:self.view!.size)
+            self.view?.presentScene(switchScenne, transition: SKTransition.fade(with: .black, duration: 1))
+            print("start")
+        }else if continueMenu.frame.contains(touchPoint){
+            print("continue")
+        }else if loadMenu.frame.contains(touchPoint){
+            print("load")
+        }else{
+            self.view?.presentScene(GameScene(size: self.size))
+        }
     }
 }

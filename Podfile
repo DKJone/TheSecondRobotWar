@@ -7,5 +7,7 @@ target 'TheSecondRobotWar' do
 
   # Pods for TheSecondRobotWar
    pod 'SwifterSwift'
-
+   pod 'SwiftyJSON'
+   pod 'FLEX', :configurations => ['Debug']
+   pod 'HandyJSON'
 end
